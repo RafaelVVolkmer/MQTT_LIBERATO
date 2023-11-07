@@ -32,10 +32,15 @@ Liberato/iotTro/44xx/ack/<matricula> – ao receber uma resposta, o dispositivo 
 Liberato/iotTro/44xx/ack/ – será enviada mensagem com o número de sequência recebido e código de erro no campo ack, conforme mensagem abaixo:
 
 NSTR - mensagem enviada em formato diferente de string
+
 NOK - não foi possível interpretar a mensagem. Erro grave de formato.
+
 NID - erro/ausência no campo id e/ou matrícula.
+
 NSQ - sequência inválida
+
 NAN - erro/ausência de dados solicitados
+
 NEX - campos extras não solicitados na mensagem
 	
 Não são necessárias muitas respostas, 3 ou 4 são suficientes. As respostas ficam registradas no dispositivo IoT.
